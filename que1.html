@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+</head>
+<body class="bg-primary d-flex flex-column min-vh-100">
+
+  <!--Container -->
+   <div class="container flex-grow-1 d-flex justify-content-center align-items-center">  
+
+    <!-- Card -->
+      <div class="card justify-content-center col-lg-12 col-md-8 col-12 p-5">
+        <div class="card-body">
+           <h3 class="card-title"> Sign Up</h3>      
+           <p>Please fill in this form to create an account!</p>
+             <div class="row">
+                <div class="col-md-6 col-12">
+
+                  <!--Fname-->
+                   <div class="form-group">
+                     <input type="text" class="form-control bg-light border-0" id="fname" placeholder="First Name" name="fname">
+                   </div>
+                </div>
+
+                <!--Lname-->
+              <div class="col-md-6 col-12">
+                <div class="form-group">
+                  <input type="text" class="form-control bg-light border-0" id="lname" placeholder="Last Name" name="lname">
+               </div>
+             </div>
+            </div>
+
+            <!--Email-->
+           <div class="form-group">
+             <input type="email" class="form-control bg-light border-0" id="email" placeholder="Email" name="email">
+           </div>
+
+           <!--Password-->
+           <div class="form-group">
+             <input type="password" class="form-control bg-light border-0" id="pwd" placeholder="Password" name="pswd">
+           </div>
+
+            <!--Confirm Password-->
+          <div class="form-group">
+            <input type="password" class="form-control bg-light border-0" id="confpwd" placeholder="Confirm Password" name="confpswd">
+          </div>
+
+          <!--Terms access Checkbox-->
+          <div class="form-group form-check">
+            <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="accept"> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.
+            </label>
+          </div>
+
+          <!--Signup Button-->
+        <button type="submit" class="btn btn-primary w-25">Sign Up</button>
+        </div>
+    </div>
+  </div>
+
+  <!--Login Link-->
+  <p class="text-center text-white mt-auto mb-3">Already have an account?<a href="#" class="text-white"> Login here.</a></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
